@@ -1,0 +1,13 @@
+[build-system]
+requires = []
+build-backend = "build_backend"
+backend-path = ["."]
+
+[project]
+name = "probability-calibration-auditor"
+version = "0.1.0"
+description = "Dependency-free binary probability scores and reliability diagnostics"
+requires-python = ">=3.11"
+
+[project.scripts]
+probability-calibration-auditor = "probability_calibration_auditor.cli:main"
